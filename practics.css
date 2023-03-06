@@ -1,0 +1,120 @@
+@import url(<linkrel="preconnect"href="https://fonts.googleapis.com"><linkrel="preconnect"href="https://fonts.gstatic.com"crossorigin><linkhref="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"rel="stylesheet">);
+
+body {
+  background: #f3f1ff;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container {
+  width: 870px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 33px;
+  margin-bottom: 30px;
+}
+
+.section-title {
+  color: #562eff;
+  font-size: 24px;
+}
+
+/* ****************
+    Top Players
+***************** */
+.players img {
+  width: 56px;
+  height: 56px;
+}
+.player h3 {
+  font-size: 18px;
+}
+.players {
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  row-gap: 29px;
+  margin-top: 40px;
+}
+.player {
+  display: flex;
+  gap: 16px;
+}
+
+/* hr */
+.container hr {
+  margin: 30px 0px;
+  border: 1px solid #d1d1d1;
+}
+
+/**************
+    Top Blogs
+************** */
+.blog img {
+  width: 177px;
+  height: 117px;
+}
+.blogs {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  row-gap: 26px;
+}
+.blog {
+  display: flex;
+  gap: 16px;
+}
+.blog-info h3 {
+  font-size: 20px;
+}
+.blog-author a {
+  color: #562eff;
+  text-decoration: none;
+  size: 16px;
+}
+
+/***************
+     Latest Courses
+**************** */
+.latest-courses {
+}
+.courses {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.course {
+  filter: drop-shadow(0px 5.34229px 13.3557px rgba(0, 0, 0, 0.05));
+  width: 253px;
+  height: 270px;
+}
+.course-banner img {
+  margin-left: 10px;
+  width: 224px;
+  height: 104px;
+}
+.course-tutor a {
+  font-size: 16px;
+  text-decoration: none;
+  color: #ed6b4f;
+}
+.course-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.rating {
+  font-size: 16px;
+}
+.fa-star.filled {
+  color: gold;
+}
+.fa-star.empty {
+  color: #d1d1d1;
+}
+.duration {
+  background-color: rgb(253, 199, 210);
+}
+.fa-clock {
+  color: rgb(255, 108, 108);
+}
